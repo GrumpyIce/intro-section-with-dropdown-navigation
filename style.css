@@ -1,8 +1,10 @@
+
 *{
     margin: 0;
     padding: 0;
     overflow: none;
 }
+
 a{
     text-decoration: none;
     color: black;
@@ -10,10 +12,11 @@ a{
 .dropdown a{
     color: black;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 10px;
     display: flex;
     align-items: center;
     gap: 1px;
+    font: 1em sans-serif;
 }
 .nav-links{
     list-style: none;
@@ -42,6 +45,7 @@ margin-right: 20px;
   border: 1px solid #ccc;
   border-radius: 10px;
   line-height: 10px;
+  font: 0.5em sans-serif;
  
 }
 
@@ -67,6 +71,7 @@ margin-right: 20px;
 }
 .main-text{
     font-size: xx-large;
+    font: 2em sans-serif;
 }
 
 .learn-more button{
